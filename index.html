@@ -5,25 +5,71 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>Document</title>
+
+
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/all.min.css">
+      <link rel="stylesheet" href="css/style.css">
 
     </head>
     <body>
         <div class="container">
             <nav>
-                <i class="fas fa-bars fa-2x"></i>
-                <span id="logo"><i class="fab fa-youtube fa-3x" style="color:red;"></i>YouTube</span>
-                <input type="text" id="search" name="search" placeholder="Search">
-                <button><i class="fas fa-search fa-2x"></i></button>
-                <i class="fas fa-video fa-3x"></i>
-                <i class="fas fa-plus fa-2x" style="color:gray"></i>
-                <i class="fas fa-bell fa-3x"></i>
-                <i class="fas fa-user-circle fa-3x"></i>
+                <div>
+                    <i class="fas fa-bars fa-2x"></i>
+                    <span id="logo"><i class="fab fa-youtube fa-3x" style="color:red;"></i>YouTube</span>
+                </div>
+                <div>
+                    <input type="text" id="search" name="search" placeholder="Search">
+                    <button><i class="fas fa-search fa-2x"></i></button>
+                </div>
+                <div>
+                    <i class="fas fa-video fa-3x"></i>
+                    <i class="fas fa-plus fa-2x" style="color:gray"></i>
+                    <i class="fas fa-bell fa-3x"></i>
+                    <i class="fas fa-user-circle fa-3x"></i>
+                </div>
             </nav>
 
             <div class="main-container">
                 <main>
+                    <section id="video">
+                        <div class="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/AdQ3JDLlmPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
 
+                        <div class="details">
+                            <div class="title">
+                                <h1>NO EXCUSES</h1>
+                            </div>
+
+                            <div class="views">
+                                <p id="num_views">300 Views</p>
+
+                                <div class="likes_shares">
+                                    <p><i class="fas fa-thumbs-up"></i>4K</p>
+                                    <p><i class="fas fa-thumbs-down"></i>125</p>
+                                    <p><i class="fas fa-share"></i> SHARE</p>
+                                    <p><i class="fas fa-plus"></i> Save</p>
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="channel">
+                            <div class="channel-details">
+                                <i class="fas fa-user fa-3x"></i>
+                                <div class="chanel-info">
+                                    <p> Ben Lionel Scott</p>
+                                    <p>300 Subscribers</p>
+                                </div>
+                            </div>
+
+                            <button>Subscribe</button>
+                        </div>
+
+                    </section>
                 </main>
                 <aside class="">
 
