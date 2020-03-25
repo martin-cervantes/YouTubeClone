@@ -15,6 +15,11 @@ nav {
     padding: 1em;
 }
 
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 .left {
     flex: 1.5;
 }
@@ -146,7 +151,7 @@ nav {
     align-items: center;
 }
 
-img {
+.user img {
     margin-right: 0.5em;
     align-self: center;
     border-radius: 50%;
@@ -163,4 +168,10 @@ img {
 .channel-info p:nth-child(1){
     color: black !important;
     font-weight: 700;
+}
+
+aside img {
+    border: 1px solid #3b3b3b
+    padding: 5px;
+    width: 180px;
 }
