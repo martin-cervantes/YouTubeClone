@@ -5,6 +5,7 @@ body {
 }
 
 .container {
+    /* display:flex; */
     background-color: white;
     margin: 0 2em;
 }
@@ -15,11 +16,15 @@ nav {
     padding: 1em;
 }
 
+
 .main-container {
     display: flex;
     justify-content: space-evenly;
     padding-left: 0 !important;
     padding-right: 0 !important;
+}
+.video{
+    display:flex;
 }
 
 .left {
@@ -56,6 +61,7 @@ nav {
 }
 
 .right {
+    display: flex;
     padding: 0 0 0 2em;
     display: flex;
     flex: 1;
@@ -86,6 +92,7 @@ nav {
 }
 
 .main-container {
+    display:flex;
     background-color: white;
     padding: 1em;
 }
@@ -199,14 +206,18 @@ nav {
     font-weight: 700;
     font-size: 1rem;
     margin-bottom: 0.5em;
+    flex-wrap: nowrap;
 }
 
 .thumbnail_channel {
     font-size: 0.75rem;
 }
+.thumbnail-info{
+    flex-shrink: 0;
+}
 
 aside img {
-    border: 1px solid #3b3b3b
+    border: 1px solid #3b3b3b;
     padding: 5px;
     width: 180px;
     height: 125px;
@@ -217,10 +228,42 @@ aside img {
    font-size: 0.75rem;
    color: #3b3b3b;
 }
+.views_date p div{
+    flex-shrink: 0;
+}
 
 .dot {
     font-size: 0.25rem;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+aside{
+    flex-shrink:0;
+}
+@media (max-width:1200px){
+   .main-container{
+     display:flex;
+    flex-direction:column;
+   }
+   .views_date{
+    flex-direction:row;
+}
+
+}
+@media (max-width:1400px){
+    .views_date{
+        flex-direction: column;
+    }
+}
+@media (max-width:1200px){
+    .views_date{
+        flex-direction: row;
+    }
+}
+@media (max-width:900px){
+    .center{
+        display: none;
+    }
 }
