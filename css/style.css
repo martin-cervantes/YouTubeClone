@@ -17,27 +17,35 @@ nav {
 
 .main-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .left {
-    flex: 1.5;
+    flex: 1;
 }
 
 .center {
-    flex: 2;
+    padding: 0 2em 0 0;
+    display: flex;
+    flex: 3;
     justify-self: center;
+    justify-content: center;
 }
 
 .center input {
+    flex: 11;
     margin: 0;
     padding: 0;
     border-radius: 0;
     border-style: none;
     border: 1px #d3d3d3 solid;
+    font-size: 1.2em;
 }
 
 .center button {
+    flex: 1;
     margin: 0;
     margin-left: -0.5em;
     padding: 0 0.5em;
@@ -48,9 +56,11 @@ nav {
 }
 
 .right {
+    padding: 0 0 0 2em;
     display: flex;
-    flex: 1.5;
+    flex: 1;
     justify-content: space-between;
+    align-self: flex-end;
 }
 
 .icons {
@@ -71,6 +81,10 @@ nav {
     color: white;
 }
 
+#squared_menu {
+    height: 1.1em;
+}
+
 .main-container {
     background-color: white;
     padding: 1em;
@@ -82,7 +96,6 @@ nav {
     background-color: white;
     display: flex;
     flex-direction: column;
-
 }
 
 .title p {
@@ -170,8 +183,44 @@ nav {
     font-weight: 700;
 }
 
+.ad {
+    height: 180px;
+}
+.thumbnail {
+    display: flex;
+    margin: 0.5em 0 0.5em 1em;
+}
+
+.thumbnail p {
+    margin: 0 0.5em;
+}
+
+.thumbnail .title {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0.5em;
+}
+
+.thumbnail_channel {
+    font-size: 0.75rem;
+}
+
 aside img {
     border: 1px solid #3b3b3b
     padding: 5px;
     width: 180px;
+    height: 125px;
+}
+
+.views_date {
+   display: flex;
+   font-size: 0.75rem;
+   color: #3b3b3b;
+}
+
+.dot {
+    font-size: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
