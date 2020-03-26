@@ -284,6 +284,12 @@ aside {
     padding-top: 0;
 }
 
+.ad p {
+		margin: 0.5em 1em;
+		font-size: 1.5em;
+		padding: 0;
+}
+
 .thumbnail {
     display: flex;
     margin: 0.5em 0 0.5em 1em;
