@@ -161,9 +161,9 @@ margin-left:1em;
     flex: 1;
     font-weight: 700;
 }
-.likes_shares p i{
+/* .likes_shares p i{
     /* margin: .2em; */
-}
+} */
 
 .likes_shares:nth-child(1) {
     border-bottom: 2px #d3d3d3 solid !important;
