@@ -43,6 +43,9 @@ main{
 .left {
     flex: 1;
 }
+#logo{
+margin-left:1em;
+}
 
 .center {
     padding: 0 2em 0 0;
