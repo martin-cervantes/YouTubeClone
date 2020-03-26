@@ -16,7 +16,6 @@ nav {
     padding:1em 1em 0.5em 1em;
 }
 
-
 .main-container {
     display: flex;
     justify-content: space-evenly;
@@ -24,17 +23,21 @@ nav {
     padding-right: 0 !important;
     margin-left: 2em;
 }
+
 main{
     flex:3;
 }
+
 #video{
     display:flex;
     flex-direction: column;
 }
+
 .video{
     display:flex;
     margin-bottom: 1em;
 }
+
 .video iframe{
   /*   object-fit: cover; */
   width: 100%;
@@ -44,6 +47,7 @@ main{
 .left {
     flex: 1;
 }
+
 #logo{
 margin-left:1em;
 }
@@ -160,6 +164,7 @@ margin-left:1em;
     justify-content: space-around;
     flex: 1;
     font-weight: 700;
+    flex: 0 0 18em;
 }
 /* .likes_shares p i{
     /* margin: .2em; */
@@ -167,6 +172,10 @@ margin-left:1em;
 
 .likes_shares:nth-child(1) {
     border-bottom: 2px #d3d3d3 solid !important;
+}
+
+.likes_shares p {
+    flex-shrink: 0;
 }
 
 .channel {
@@ -215,10 +224,15 @@ margin-left:1em;
 .channel-info p:nth-child(1){
     color: black !important;
     font-weight: 700;
+    font-size: 0.85em;
 }
 
+
+.channel-info p:nth-child(2){
+    font-size: 0.85em;
+}
 /* .ad {
-   
+
 } */
 .ad p{
     margin: 0 1em 0em  1em;
@@ -306,6 +320,18 @@ aside{
 }
 @media (max-width:900px){
     .center{
+        display: none;
+    }
+}
+
+@media (max-width:600px){
+    #date{
+        display: none;
+    }
+}
+
+@media (max-width:500px){
+    #text{
         display: none;
     }
 }
