@@ -33,6 +33,7 @@ main{
 }
 .video{
     display:flex;
+    margin-bottom: 1em;
 }
 .video iframe{
   /*   object-fit: cover; */
