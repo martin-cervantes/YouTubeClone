@@ -115,6 +115,7 @@ nav {
     flex: 1;
     justify-content: space-between;
     align-self: flex-end;
+		color: var(--gray2);
 }
 
 .right .red {
