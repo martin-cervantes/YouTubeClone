@@ -64,6 +64,7 @@ margin-left:1em;
     border-style: none;
     border: 1px #d3d3d3 solid;
     font-size: 1.2em;
+    height: 1.5vw;
 }
 
 .center button {
@@ -158,6 +159,10 @@ margin-left:1em;
     justify-self: end;
     justify-content: space-around;
     flex: 1;
+    font-weight: 700;
+}
+.likes_shares p i{
+    /* margin: .2em; */
 }
 
 .likes_shares:nth-child(1) {
