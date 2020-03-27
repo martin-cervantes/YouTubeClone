@@ -161,21 +161,22 @@ main {
 	background-color: var(--white);
 	display: flex;
     flex-direction: column;
+	padding-bottom: 1em;
     padding-top: 0;
-    padding-bottom: 1em;
 }
 
 .details p, .channel p {
     color: var(--gray2);
+	margin-bottom: 0;
     margin-top: 0;
-    margin-bottom: 0;
+
 }
 
 .title p {
 	color: var(--black);
 	font-weight: 700;
+	margin-bottom: 0;
     margin-top: 0;
-    margin-bottom: 0;
 }
 
 .views {
@@ -208,53 +209,52 @@ main {
 }
 
 .channel {
+	align-items: center;
 	background-color: var(--white);
+	border-bottom: 1px var(--gray1) solid;
+	border-top: 1px var(--gray1) solid;
 	display: flex;
-
     justify-content: space-between;
-    align-items: center;
-    border-top: 1px var(--gray1) solid;
-    border-bottom: 1px var(--gray1) solid;
     padding: 1em;
 }
 
 .channel button {
-    justify-self: end;
-    justify-content: space-around;
-    margin-right: 0.25em;
-    background-color: var(--red);
+	background-color: var(--red);
+	border-color: var(--red);
+	border-radius: 0.25em;
     color: var(--white);
-    border-radius: 0.25em;
-    text-transform: uppercase;
-    border-color: var(--red);
+	font-weight: 500;
+    justify-content: space-around;
+    justify-self: end;
+    margin-right: 0.25em;
     padding: 0.75em;
-    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .channel-details {
-    background-color: var(--white);
+	align-items: center;
+	background-color: var(--white);
     display: flex;
-    align-items: center;
 }
 
 .user img {
-    margin-right: 0.5em;
-    align-self: center;
+	align-self: center;
     border-radius: 50%;
     height: 54px;
+    margin-right: 0.5em;
     width: 54px;
 }
 
 .channel-info {
+	align-items:flex-start;
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
 }
 
 .channel-info p:nth-child(1) {
     color: var(--black);
-    font-weight: 700;
     font-size: 0.85em;
+	font-weight: 700;
 }
 
 .channel-info p:nth-child(2) {
@@ -271,9 +271,9 @@ aside {
 }
 
 .ad p {
-		margin: 0.5em 1em;
-		font-size: 1.5em;
-		padding: 0;
+	font-size: 1.5em;
+	margin: 0.5em 1em;
+	padding: 0;
 }
 
 .thumbnail {
@@ -286,10 +286,10 @@ aside {
 }
 
 .thumbnail .title {
-    font-weight: 700;
-    font-size: 1rem;
+	flex-wrap: nowrap;
+	font-size: 1rem;
+	font-weight: 700;
     margin-bottom: 0.5em;
-    flex-wrap: nowrap;
 }
 
 .thumbnail_channel {
@@ -301,15 +301,15 @@ aside {
 }
 
 aside img {
-    padding:0;
-    width: 180px;
     height: 125px;
+	padding:0;
+    width: 180px;
 }
 
 .views_date {
-   display: flex;
-   font-size: 0.75rem;
-   color: var(--gray1);
+	color: var(--gray1);
+    display: flex;
+    font-size: 0.75rem;
 }
 
 .views_date p div{
@@ -317,11 +317,10 @@ aside img {
 }
 
 .dot {
-    font-size: 0.25rem;
-    display: flex;
     align-items: center;
+    display: flex;
+    font-size: 0.25rem;
     justify-content: center;
-
 }
 
 .fa-check-circle {
