@@ -3,19 +3,9 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+a, aside, body, div, footer,  h1, h2,
+header, html, iframe, img, nav,
+p, section, span, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,8 +14,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-aside, details, figcaption, figure,
-footer, header, nav, section {
+aside, footer, header, nav, section {
 	display: block;
 }
 body {
@@ -79,42 +68,39 @@ nav {
 
 
 .center {
-    padding: 0 2em 0 0;
-    display: flex;
+	display: flex;
     flex: 3;
+	justify-content: center;
     justify-self: center;
-    justify-content: center;
+	padding: 0 2em 0 0;
 }
 
 .center input {
+	border: 1px var(--gray1) none;
+	border-radius: 0;
     flex: 11;
+	font-size: 1.2em;
+	height: 1.5vw;
     margin: 0;
     padding: 0;
-    border-radius: 0;
-    border-style: none;
-    border: 1px var(--gray1) solid;
-    font-size: 1.2em;
-    height: 1.5vw;
 }
 
 .center button {
+	border: 1px var(--gray1) solid;
+	border-radius: 0;
+	color: var(--gray2);
     flex: 1;
     margin: 0;
     margin-left: -0.5em;
     padding: 0;
-    border-radius: 0;
-    color: var(--gray2);
-    border-style: none;
-    border: 1px var(--gray1) solid;
 }
 
 .right {
+	align-self: flex-end;
     display: flex;
+	flex: 1;
+	justify-content: space-between;
     padding: 0 0 0 2em;
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-    align-self: flex-end;
 }
 
 .right .red {
@@ -122,15 +108,15 @@ nav {
 }
 
 .icons {
-    position: relative;
+	align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
 .child {
-    position: absolute;
     left:0;
+	position: absolute;
     top: 0;
 }
 
@@ -145,10 +131,10 @@ nav {
 /** main container **/
 
 .main-container {
+	background-color: var(--white);
     display: flex;
     justify-content: space-evenly;
     margin-left: 2em;
-    background-color: var(--white);
     padding: 1em;
 }
 
@@ -167,51 +153,51 @@ main {
 }
 
 .video iframe {
-  width: 100%;
-  height:35vw;
+    height:35vw;
+    width: 100%;
 }
 
 .details {
-    padding-top: 0;
-    padding-bottom: 1em;
-    background-color: var(--white);
-    display: flex;
+	background-color: var(--white);
+	display: flex;
     flex-direction: column;
+	padding-bottom: 1em;
+    padding-top: 0;
 }
 
 .details p, .channel p {
-    margin-top: 0;
-    margin-bottom: 0;
     color: var(--gray2);
+	margin-bottom: 0;
+    margin-top: 0;
+
 }
 
 .title p {
+	color: var(--black);
+	font-weight: 700;
+	margin-bottom: 0;
     margin-top: 0;
-    margin-bottom: 0;
-    color: var(--black);
-    font-weight: 700;
 }
 
 .views {
     background-color: var(--white);
+	display: flex;
+	flex-direction: row;
     justify-content: space-between;
-    display: flex;
-    flex-direction: row;
 }
 
 #num_views {
+	flex: 2.5;
     justify-self: start;
-    flex: 2.5;
 }
 
 .likes_shares {
-    display: flex;
     align-items: center;
-    justify-self: end;
-    justify-content: space-around;
-    flex: 1;
+    display: flex;
+	flex: 0 0 18em;
     font-weight: 700;
-    flex: 0 0 18em;
+	justify-content: space-around;
+    justify-self: end;
 }
 
 .likes_shares:nth-child(1) {
@@ -223,52 +209,52 @@ main {
 }
 
 .channel {
-    display: flex;
-    background-color: var(--white);
+	align-items: center;
+	background-color: var(--white);
+	border-bottom: 1px var(--gray1) solid;
+	border-top: 1px var(--gray1) solid;
+	display: flex;
     justify-content: space-between;
-    align-items: center;
-    border-top: 1px var(--gray1) solid;
-    border-bottom: 1px var(--gray1) solid;
     padding: 1em;
 }
 
 .channel button {
-    justify-self: end;
-    justify-content: space-around;
-    margin-right: 0.25em;
-    background-color: var(--red);
+	background-color: var(--red);
+	border-color: var(--red);
+	border-radius: 0.25em;
     color: var(--white);
-    border-radius: 0.25em;
-    text-transform: uppercase;
-    border-color: var(--red);
+	font-weight: 500;
+    justify-content: space-around;
+    justify-self: end;
+    margin-right: 0.25em;
     padding: 0.75em;
-    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .channel-details {
-    background-color: var(--white);
+	align-items: center;
+	background-color: var(--white);
     display: flex;
-    align-items: center;
 }
 
 .user img {
-    margin-right: 0.5em;
-    align-self: center;
+	align-self: center;
     border-radius: 50%;
     height: 54px;
+    margin-right: 0.5em;
     width: 54px;
 }
 
 .channel-info {
+	align-items:flex-start;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .channel-info p:nth-child(1) {
     color: var(--black);
-    font-weight: 700;
     font-size: 0.85em;
+	font-weight: 700;
 }
 
 .channel-info p:nth-child(2) {
@@ -285,9 +271,9 @@ aside {
 }
 
 .ad p {
-		margin: 0.5em 1em;
-		font-size: 1.5em;
-		padding: 0;
+	font-size: 1.5em;
+	margin: 0.5em 1em;
+	padding: 0;
 }
 
 .thumbnail {
@@ -300,10 +286,10 @@ aside {
 }
 
 .thumbnail .title {
-    font-weight: 700;
-    font-size: 1rem;
+	flex-wrap: nowrap;
+	font-size: 1rem;
+	font-weight: 700;
     margin-bottom: 0.5em;
-    flex-wrap: nowrap;
 }
 
 .thumbnail_channel {
@@ -315,15 +301,15 @@ aside {
 }
 
 aside img {
-    padding:0;
-    width: 180px;
     height: 125px;
+	padding:0;
+    width: 180px;
 }
 
 .views_date {
-   display: flex;
-   font-size: 0.75rem;
-   color: var(--gray1);
+	color: var(--gray1);
+    display: flex;
+    font-size: 0.75rem;
 }
 
 .views_date p div{
@@ -331,11 +317,10 @@ aside img {
 }
 
 .dot {
-    font-size: 0.25rem;
-    display: flex;
     align-items: center;
+    display: flex;
+    font-size: 0.25rem;
     justify-content: center;
-
 }
 
 .fa-check-circle {
@@ -365,12 +350,6 @@ aside img {
 @media (max-width:1200px) {
     .views_date {
         flex-direction: column;
-    }
-}
-
-@media (max-width:1200px) {
-    .views_date {
-        flex-direction: row;
     }
 }
 
