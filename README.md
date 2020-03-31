@@ -27,17 +27,19 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+    👤 **Author1**
 
-- Github: [@teshager21](https://github.com/teshager21)
-- Twitter: [@Teshage84907805](https://twitter.com/Teshage84907805)
-- Linkedin: [Teshager Admasu](https://www.linkedin.com/in/teshager-admasu-0000011a2/)
+    - Gmail: [Teshager Admasu](mailto:teshager8922@gmail.com)
+    - Github: [@teshager21](https://github.com/teshager21)
+    - Twitter: [@Teshage84907805](https://twitter.com/Teshage84907805)
+    - Linkedin: [Teshager Admasu](https://www.linkedin.com/in/teshager-admasu-0000011a2/)
 
-👤 **Author2**
+    👤 **Author2**
 
-- Github: [@mcervantes71](https://github.com/mcervantes71)
-- Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
-- Linkedin: [Martin Cervantes](https://www.linkedin.com/in/cervantesmartin/)
+    - Gmail: [Martin Cervantes](mailto:cervantes.martine@gmail.com)
+    - Github: [@mcervantes71](https://github.com/mcervantes71)
+    - Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
+    - Linkedin: [Martin Cervantes](https://www.linkedin.com/in/cervantesmartin/)
 
 ## 🤝 Contributing
 
