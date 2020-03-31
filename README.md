@@ -2,7 +2,7 @@
 
     This is a project of cloning Youtube.com page as a part of practicing HTML video and thumbnail index.
 
-    ![screenshot](./screenshot.png)
+![screenshot](./screenshot.png)
 
     Additional description about the project and its features.
 
