@@ -1,13 +1,15 @@
 # YouTube Clone
- This is a project of cloning Youtube.com page as a part of practicing HTML video and thumbnail index.
 
-![screenshot](./screenshot.png)
+    This is a project of cloning Youtube.com page as a part of practicing HTML video and thumbnail index.
 
-Additional description about the project and its features.
+    ![screenshot](./screenshot.png)
+
+    Additional description about the project and its features.
 
 ## Built With
-- Plain HTML5,
-- Pure CSS3,
+
+    - Plain HTML5,
+    - Pure CSS3,
 
 ## Live Demo
 
@@ -15,7 +17,7 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+    To get a local copy up and running follow these simple example steps.
 
 ### Install
 
@@ -43,14 +45,14 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+    Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+    Feel free to check the [issues page](issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+    Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+    This project is [MIT](lic.url) licensed.
