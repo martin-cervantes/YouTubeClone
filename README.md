@@ -1,6 +1,6 @@
 # YouTube Clone
 
-    This is a project of cloning Youtube.com page as a part of practicing HTML video and thumbnail index.
+This project consists of building an HTML document that matches the appearance of youtube video player page for learning purpose
 
 ![screenshot](./screenshot.png)
 
